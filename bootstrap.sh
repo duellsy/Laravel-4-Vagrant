@@ -45,7 +45,7 @@ curl -s https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer.phar
 
 cd /var/www
-composer.phar install
+composer.phar install --dev
 
 
 # Set up a dataase for your project
